@@ -45,3 +45,10 @@ let calc = Calculator()
 print("\n🧮 Calculator Demo:")
 print("5 + 3 = \(calc.add(5, 3))")
 print("4 × 7 = \(calc.multiply(4, 7))")
+
+// New feature added via Xcode
+func displayWelcomeMessage() {
+    print("\n🎉 Welcome to the iOS Development Playground! new change")
+    print("Xcode + GitHub integration is working perfectly! ✅")
+}
+    displayWelcomeMessage( )
