@@ -29,3 +29,19 @@ class iOSProject {
 
 let myProject = iOSProject(name: "Test iOS Project")
 myProject.displayInfo()
+
+// New feature: Simple calculator
+struct Calculator {
+    func add(_ a: Int, _ b: Int) -> Int {
+        return a + b
+    }
+    
+    func multiply(_ a: Int, _ b: Int) -> Int {
+        return a * b
+    }
+}
+
+let calc = Calculator()
+print("\n🧮 Calculator Demo:")
+print("5 + 3 = \(calc.add(5, 3))")
+print("4 × 7 = \(calc.multiply(4, 7))")
